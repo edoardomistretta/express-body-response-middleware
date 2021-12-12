@@ -1,0 +1,6 @@
+node_modules/
+lib/
+docker-compose.override.yml
+.eslintcache
+*.log
+.DS_store

@@ -1,0 +1,22 @@
+language: node_js
+node_js:
+  - 16
+
+stages:
+  - "Typecheck"
+  - "Test"
+  - "Lint"
+
+jobs:
+  include:
+    - stage: "Typecheck"
+      name: "Typechecking"
+      script: npm run typecheck
+
+    - stage: "Test"
+      name: "Testing"
+      script: npm run test -- --coverage
+
+    - stage: "Lint"
+      name: "Linting"
+      script: npm run lint

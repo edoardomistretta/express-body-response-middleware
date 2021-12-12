@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "noUnusedLocals": false
+  },
+  "extends": "./tsconfig.common.json",
+  "include": [
+    "src/**/*.ts",
+    "test/**/*.ts"
+  ]
+}

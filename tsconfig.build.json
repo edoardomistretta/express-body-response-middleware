@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "inlineSources": true,
+    "noEmit": false,
+    "sourceMap": true
+  },
+  "extends": "./tsconfig.common.json",
+  "include": [
+    "src/**/*.ts"
+  ]
+}

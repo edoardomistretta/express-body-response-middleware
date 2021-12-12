@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  express-body-response-middleware:
+    image: node:16.13.1-alpine3.12
+    working_dir: /home/node/express-body-response-middleware
+    command: ["npm", "run", "dev"]
+    volumes:
+      - ./:/home/node/express-body-response-middleware
+    ports:
+      - "32200:3000"
