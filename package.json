@@ -1,6 +1,6 @@
 {
   "name": "express-body-response-middleware",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Express middleware to get response body in an easy way",
   "author": "Edoardo Mistretta",
   "main": "lib/index.js",
